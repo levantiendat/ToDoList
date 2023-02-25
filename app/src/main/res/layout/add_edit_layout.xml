@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="50dp"
+    android:id="@+id/addeditlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/brand1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhiệm vụ: "
+        android:textColor="#0040FF"
+        android:textSize="30dp"
+        android:background="#ff0"
+        />
+
+    <EditText
+        android:id="@+id/text1"
+        android:maxLines="3"
+        android:lines="3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#26FF00"
+        android:breakStrategy="simple"
+        android:hint="Nhiệm vụ cần chỉnh sửa"
+        android:singleLine="false"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/brand2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung nhiệm vụ "
+        android:textColor="#0040FF"
+        android:textSize="30dp"
+        android:background="#ff0"
+        />
+
+    <EditText
+        android:id="@+id/text2"
+        android:maxLines="10"
+        android:lines="10"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="#26FF00"
+        android:breakStrategy="simple"
+        android:hint="Nội dung cần chỉnh sửa"
+        android:singleLine="false"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:backgroundTint="#03A9F4"
+            android:text="OK"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="#FFC107"
+            android:drawableTint="#CD1717"
+            android:text="BACK"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

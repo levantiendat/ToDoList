@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+
+        android:layout_height="600dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="135dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#34BD42"
+            android:text="ADD"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="135dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/add"
+            android:backgroundTint="#343BBD"
+            android:text="EDIT"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="135dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/edit"
+            android:backgroundTint="#BD345B"
+            android:text="DONE"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</LinearLayout>
